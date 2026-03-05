@@ -3,9 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NetFilm</title>
+    <link rel="stylesheet" href="css/style-index.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <img src="img/logo.svg" alt="logo" class="logo__img">
+                    <span class="logo__text">NetFilm</span>
+                </div>
+                <nav class="nav__list">
+                    <li class="nav__item"><a href="about-us.html" class="nav__link">About us</a></li>
+                    <li class="nav__item"><a href="movies.html" class="nav__link">Movies</a></li>
+                    <li class="nav__item"><a href="favorites.html" class="nav__link">Favorites</a></li>
+                </nav>
+                <div class="header__search">
+                    <input type="text" placeholder="Enter some keywords" class="search_input">
+                    <img src="img/magnify.svg" class="search_icon">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main__wrapper">
+                <section class="filter">
+                    <div class="filter__wrapper">
+                        <ul class="filter__list">
+                            <li class="filter__item">
+                                <input type="checkbox" name="genre" id="action">
+                                <label for="">Action</label>
+                            </li>
+                            <li class="filter__item">
+                                <input type="checkbox" name="genre" id="adventure">
+                                <label for="">Adventure</label>
+                            </li>
+                            <li class="filter__item">
+                                <input type="checkbox" name="genre" id="romance">
+                                <label for="romance">Romance</label>
+                            </li>
+                            <li class="filter__item">
+                                <input type="checkbox" name="genre" id="documentary">
+                                <label for="documentary">Documentary</label>
+                            </li>
+                            <li class="filter__item">
+                                <input type="checkbox" name="genre" id="war">
+                                <label for="war">War</label>
+                            </li>
+                        </ul>
+
+                        <ul class="filter__list">
+                            <li class="filter__item">
+                                <input type="checkbox" name="genre" id="sport">
+                                <label for="sport">Sport</label>
+                            </li>
+                            <li class="filter__item">
+                                <input type="checkbox" name="genre" id="musical">
+                                <label for="musical">Musical</label>
+                            </li>
+                            <li class="filter__item">
+                                <input type="checkbox" name="genre" id="family">
+                                <label for="family">Family</label>
+                            </li>
+                        </ul>                
+                    </div>
+                </section>
+                <section class="content">
+                    <iframe class="content__media" width="560" height="315" src="https://www.youtube.com/embed/nrXlY6gzTTM?si=LYL-xaffQLhkWZY_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="content__desc">
+                        The Post is a 2017 American political thriller film[7][8] about The Washington Post and the publication of the Pentagon Papers. It was directed and produced by Steven Spielberg, and written by Liz Hannah and Josh Singer. It stars Meryl Streep as Katharine Graham, the publisher of the Washington Post, and Tom Hanks as Ben Bradlee, the longtime executive editor of The Washington Post, with Sarah Paulson, Bob Odenkirk, Tracy Letts, Bradley Whitford, David Cross, Bruce Greenwood, Carrie Coon, Alison Brie, and Matthew Rhys in supporting roles.
+                        Set in 1971, The Post depicts the true story of attempts by journalists at The Washington Post to publish the infamous Pentagon Papers, a set of classified documents regarding the 20-year involvement of the United States government in the Vietnam War and earlier in French Indochina back to the 1940s.                        
+                    </p>
+                <div class="movie-container">
+                    <div class="movie-card">
+                        <img src="images/post.jpg" alt="The Post">
+                        <h3>The Post</h3>
+                        <div class="stars">⭐ ⭐ ⭐</div>
+                    </div>
+
+                    <div class="movie-card">
+                        <img src="images/godfather.jpg" alt="The Godfather">
+                        <h3>The Godfather</h3>
+                        <div class="stars">⭐ ⭐ ⭐</div>
+                    </div>
+
+                    <div class="movie-card">
+                        <img src="images/titanic.jpg" alt="Titanic">
+                        <h3>Titanic</h3>
+                        <div class="stars">⭐ ⭐ ⭐</div>
+                    </div>
+
+                    <div class="movie-card">
+                        <img src="images/lion.jpg" alt="Lions">
+                        <h3>Lions</h3>
+                        <div class="stars">⭐ ⭐ ⭐</div>
+                    </div>
+
+                    <div class="movie-card">
+                        <img src="images/avatar.jpg" alt="Avatar">
+                        <h3>Avatar</h3>
+                        <div class="stars">⭐ ⭐ ⭐</div>
+                    </div>
+
+                    <div class="movie-card">
+                        <img src="images/parasite.jpg" alt="Parasite">
+                        <h3>Parasite</h3>
+                        <div class="stars">⭐ ⭐ ⭐</div>
+                    </div>
+                </div>                 
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+    <main>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer__logo">
+                <img src="img/logo.svg" alt="logo" class="logo__img">
+                <small>Blue entertainment</small>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
